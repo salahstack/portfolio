@@ -40,7 +40,7 @@ const Hero = () => {
         </div>
         <div className="hidden lg:block">
           <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden aspect-square">
-            <img src="/images/hero-banner.webp" width={800} height={800} alt="Salaheddine Mjydila" className="w-full" />
+            <img src="/images/hero-banner.webp" fetchPriority="high" loading="eager" width={800} height={800} alt="Salaheddine Mjydila" className="w-full" />
           </figure>
         </div>
       </div>
