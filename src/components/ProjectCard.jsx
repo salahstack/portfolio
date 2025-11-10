@@ -44,6 +44,7 @@ const ProjectCard = ({ imgSrc, title, tags, projectLink, classes = '' }) => {
 
       <a
         href={projectLink}
+        aria-label={`Visit ${title} project`}
         target='_blank'
         className='absolute inset-0'
       ></a>
