@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.salaheddinemjydila.netlify.app/sitemap.xml
+Sitemap: https://salaheddinemjydila.netlify.app/sitemap.xml
