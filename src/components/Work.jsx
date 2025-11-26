@@ -24,13 +24,6 @@ const works = [
     projectLink: 'https://vibetube-watch.netlify.app/',
     githubLink: 'https://github.com/salahstack/VIBETUBE'
   },
-  // {
-  //   imgSrc: '/images/project-3.webp',
-  //   title: 'Attendance management system',
-  //   tags: ['Development', 'API', 'Laravel', 'MySQL', 'SPA'],
-  //   projectLink: '',
-  //   githubLink: '',
-  // },
   {
     imgSrc: '/images/project-4.webp',
     title: 'notetaking web app',

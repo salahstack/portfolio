@@ -3,10 +3,6 @@ const aboutItems = [
     label: 'Project done',
     number: 3,
   },
-  // {
-  //   label: 'Years of experience',
-  //   number: 2,
-  // },
 ];
 const About = () => {
   return (

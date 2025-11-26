@@ -6,7 +6,6 @@ import PropTypes from 'prop-types';
  * Lucide icons
  */
 import { Github } from 'lucide-react';
-import Tooltip from './Tooltip';
 const ProjectCard = ({
   imgSrc,
   title,
@@ -46,18 +45,15 @@ const ProjectCard = ({
         </div>
       </div>
       <div className='mt-4 flex items-center justify-between gap-4'>
-        <Tooltip content={`View ${title} on GitHub`}>
-          <a
-            href={githubLink}
-            aria-label={`View ${title} on GitHub`}
-            target='_blank'
-            rel='noopener noreferrer'
-            className='h-11 grow rounded-lg grid place-items-center text-zinc-50 bg-zinc-900 cursor-pointer'
-          >
-            <Github aria-hidden='true' />
-          </a>
-        </Tooltip>
-
+        <a
+          href={githubLink}
+          aria-label={`View ${title} on GitHub`}
+          target='_blank'
+          rel='noopener noreferrer'
+          className='h-11 grow rounded-lg grid place-items-center text-zinc-50 bg-zinc-900 cursor-pointer'
+        >
+          <Github aria-hidden='true' />
+        </a>
         <a
           href={projectLink}
           aria-label={`Visit ${title} project`}
