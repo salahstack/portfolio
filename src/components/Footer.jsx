@@ -17,10 +17,6 @@ const sitemap = [
     href: '#work',
   },
   {
-    label: 'Reviews',
-    href: '#reviews',
-  },
-  {
     label: 'Contact me',
     href: '#contact',
   },
@@ -29,23 +25,15 @@ const sitemap = [
 const socials = [
   {
     label: 'GitHub',
-    href: 'https://www.github.com/codewithsadee-org',
+    href: 'https://www.github.com/salahstack',
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/codewithsadee',
-  },
-  {
-    label: 'Twitter X',
-    href: 'https://x.com/codewithsadee_',
+    href: 'https://www.linkedin.com/in/salaheddine-mjydila',
   },
   {
     label: 'Instagram',
-    href: 'https://www.instagram.com/codewithsadee',
-  },
-  {
-    label: 'CodePen',
-    href: 'https://codepen.io/codewithsadee',
+    href: 'https://www.instagram.com/mjydila_salaheddine',
   },
 ];
 const Footer = () => {
